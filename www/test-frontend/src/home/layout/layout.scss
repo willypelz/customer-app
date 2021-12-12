@@ -1,0 +1,31 @@
+$scaleSize: 0.8;
+@keyframes zoomIn8 {
+  from {
+    opacity: 0;
+    transform: scale3d($scaleSize, $scaleSize, $scaleSize);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.main-content .zoomIn {
+  animation-name: zoomIn8;
+}
+
+@keyframes zoomOut8 {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: scale3d($scaleSize, $scaleSize, $scaleSize);
+  }
+}
+.bg-default{
+  background: url("../../assets/background.jpg") no-repeat center center;
+  background-size: cover;
+}
+.main-content .zoomOut {
+  animation-name: zoomOut8;
+}

@@ -1,0 +1,2 @@
+2021/12/12 18:35:33 [error] 9#9: *2 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.20.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8086"
+2021/12/12 18:35:35 [error] 9#9: *1 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.20.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8086", referrer: "http://localhost:8086/"

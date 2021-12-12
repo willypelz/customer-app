@@ -1,0 +1,8 @@
+2021/12/11 21:38:25 [crit] 6#6: *2 open() "/var/tmp/nginx/fastcgi/1/00/0000000001" failed (13: Permission denied) while reading upstream, client: 172.20.0.1, server: , request: "GET /api/v1/customers HTTP/1.1", upstream: "fastcgi://172.20.0.3:9001", host: "localhost:8002"
+2021/12/11 22:10:54 [crit] 8#8: *2 open() "/var/tmp/nginx/fastcgi/1/00/0000000001" failed (13: Permission denied) while reading upstream, client: 172.20.0.1, server: , request: "GET /api/v1/customers HTTP/1.1", upstream: "fastcgi://172.20.0.3:9001", host: "localhost:8002"
+2021/12/11 23:02:36 [crit] 7#7: *2 open() "/var/tmp/nginx/fastcgi/1/00/0000000001" failed (13: Permission denied) while reading upstream, client: 172.20.0.1, server: , request: "GET /api/v1/customers HTTP/1.1", upstream: "fastcgi://172.20.0.3:9001", host: "localhost:8002"
+2021/12/11 23:05:39 [crit] 7#7: *8 open() "/var/tmp/nginx/fastcgi/2/00/0000000002" failed (13: Permission denied) while reading upstream, client: 172.20.0.1, server: , request: "GET /api/v1/customers HTTP/1.1", upstream: "fastcgi://172.20.0.3:9001", host: "localhost:8002"
+2021/12/11 23:37:02 [crit] 7#7: *2 open() "/var/tmp/nginx/fastcgi/1/00/0000000001" failed (13: Permission denied) while reading upstream, client: 172.22.0.1, server: , request: "GET /api/v1/404 HTTP/1.1", upstream: "fastcgi://172.22.0.3:9001", host: "localhost:8002"
+2021/12/12 07:14:50 [emerg] 1#1: host not found in upstream "php:9001" in /etc/nginx/conf.d/upstream.conf:1
+2021/12/12 07:16:12 [emerg] 1#1: host not found in upstream "php:9001" in /etc/nginx/conf.d/upstream.conf:1
+2021/12/12 07:19:11 [emerg] 1#1: host not found in upstream "php:9001" in /etc/nginx/conf.d/upstream.conf:1

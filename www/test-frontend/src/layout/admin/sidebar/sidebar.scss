@@ -1,0 +1,35 @@
+.admin-sidebar-layout{
+  width: 280px;
+}
+.v-list-item--dense .v-list-item__title, .v-list-item--dense .v-list-item__subtitle, .v-list--dense .v-list-item .v-list-item__title, .v-list--dense .v-list-item .v-list-item__subtitle {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1rem;
+}
+.v-list-item {
+  padding: 12px 16px;
+  font-family: 'Lato', sans-serif;
+}
+.v-list {
+  padding: 0 !important;
+  .v-list-item--active {
+    color: #B2BFA8 !important;
+  }
+}
+.sidebar-item-title{
+  font-size: 16px;
+  color: white !important;
+}
+.sidebar-item-logout-title{
+  font-size: 16px;
+  color: red !important;
+  background: white;
+  padding: 60px !important;
+}
+.sidebar-list-container{
+  height: 100% !important;
+}
+.sidebar-logout-container{
+
+}
+

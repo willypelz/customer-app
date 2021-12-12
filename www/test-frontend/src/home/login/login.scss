@@ -1,0 +1,36 @@
+.theme--light.v-text-field--outline:not(.v-input--is-focused):not(.v-input--has-state)>.v-input__control>.v-input__slot {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #6fbd44;
+}
+.app-logo{
+  height:80px;
+  width: auto;
+}
+.facebook-signin-box{
+  background: #3c5a98;
+  border-radius: 3px;
+  padding: 10px;
+  cursor: pointer;
+}
+.google-signin-box{
+  background: #eb4233;
+  border-radius: 3px;
+  padding: 10px;
+  cursor: pointer;
+}
+.w-30{
+  width: 30%;
+}
+.w-70{
+  width: 70%;
+}
+.w-46{
+  width: 46%;
+}
+.signin-text{
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: left !important;
+}
