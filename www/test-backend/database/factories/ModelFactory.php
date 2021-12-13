@@ -20,11 +20,5 @@ use Illuminate\Support\Str;
 $factory->define(Book::class, function (Faker $faker) {
     return [
         'name' => 'Asefon-michael',
-        'isbn' => '1293-234-ael',
-        'authors' => 'williams Michael, Asefon Pelumi',
-        'number_of_pages' => 25,
-        'publisher' => 'pelumiasefon@gmail.com',
-        'country' => 'Nigeria',
-        'release_date' => '2020-06-09',
     ];
 });

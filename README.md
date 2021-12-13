@@ -8,8 +8,10 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>  
 </p>  
   
+# Customer
+ 
 ## Customer API(Laravel)
-  
+ 
 Laravel was used to develop the application because it is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:  
   
 - [Simple, fast routing engine](https://laravel.com/docs/routing).  
@@ -59,10 +61,6 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 In order to run the feature test that was written 
 	`php ./vendor/bin/phpunit`
-when you want to generate a coverage 
-`php ./vendor/bin/phpunit --coverage-html ./coverage`
-
-This generates html report files in the application in the coverage folder, which can be located in the root directory 
 
 ### Important 
 Ensure you setup xdebug on your system. <small> [Xdebug Setup for local machine (xampp)](https://medium.com/d6-digital/installing-xdebug-for-xampp-with-php-in-windows-d2b750861118) </small>
@@ -89,8 +87,59 @@ if you are using window command line with no bash you will have to use the `\`  
 6. click in the `dashboard.html` open with any browser (100% free from risk)
 
 
-![Test Coverage(Report) Overview](https://github.com/willypelz/books-api/blob/master/testcoverage-snapshot.png)
 
+
+# Customer  FrontEnd.
+An application that consumes an API Client to manage customers  
+
+1.  State Management: Vuex
+2.  Test-driven development(TDD): mocha(not fully completed)
+3.  Request validation: Joi
+4.  project dockerized (not fully completed);
+
+
+# Getting started
+System customers
+
+## Installation
+
+Clone the repository
+
+    git clone https://github.com/willypelz/customer-app.git
+
+Switch to the repo folder
+
+    cd customer-app/www/test-frontend
+    
+Install dependencies
+    
+    npm install
+
+Running the Application 
+    
+    npm run serve
+----------
+
+## Connection
+
+For testing Ensure the backend is running on port 8081
+ `http://localhost:8081` if it is running on different port you might need to 
+ update the env.js details the port the backend is running on.
+    
+----------
+
+## Screenshots of the project
+
+this can be found in the static folder.
+    
+----------
+
+# setup using docker
+
+requirements
+ ## docker 
+
+`` docker-compose up --build ``
 
 
 # Developer(Softwaredef)
