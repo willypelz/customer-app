@@ -47,11 +47,9 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
     DB_USERNAME=MYSQL_USER_NAME  
     DB_PASSWORD=MYSQL_PASSWORD
     
-13. ensure the iceandfire base api is being setup in the .env files 
-14. ICE_AND_FIRE_URL='https://www.anapioficeandfire.com/api/' **** IT HAS BEEN TAKEN CAREOF: JUST FOR EASY TESTING
-15. Running migration data into the database 
-16. `php artisan migrate`
-17. Running customer import command
+13. Running migration data into the database 
+14. `php artisan migrate`
+15. Running customer import command
 16. `php artisan command:import:customers`
 17. serving the project 
 18. `php artisan serve`
@@ -71,22 +69,6 @@ Ensure you setup xdebug on your system. <small> [Xdebug Setup for local machine 
 `http://localhost:8000/api/v1/customers`  
 `http://localhost:8000/api/v1/customers?page={pageNumber}`  
 `http://localhost:8000/api/v1/customers/{id}"`  
-
-
-## Note
-<span style="color:red">Please note that the  `/` is for linux and mac terminal which applies to bash terminal also.
-if you are using window command line with no bash you will have to use the `\`   </span>
-
-## Test Coverage(Report) Overview
-
-1. To view the test coverage 
-2. navigate to the coverage folder 
-3. click on the `index.html` open with any browser
-4. To see risk report 
-5. In the coverage folder 
-6. click in the `dashboard.html` open with any browser (100% free from risk)
-
-
 
 
 # Customer  FrontEnd.
