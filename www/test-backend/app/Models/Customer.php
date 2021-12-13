@@ -1,7 +1,7 @@
 <?php
 /***********************************************
  ** File : Customer Model file
- ** Date: 9th June 2020  *********************
+ ** Date: 12th December 2021  *********************
  ** Customer Model file
  ** Author: Asefon pelumi M. ******************
  ** Senior Software Developer ******************

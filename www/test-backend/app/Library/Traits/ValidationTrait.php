@@ -1,7 +1,7 @@
 <?php
 /***********************************************
  ** File : Validation Trait file
- ** Date: 9th June 2020  *********************
+ ** Date: 12th December 2021  *********************
  ** Validation Trait file
  ** Author: Asefon pelumi M. ******************
  ** Senior Software Developer ******************
