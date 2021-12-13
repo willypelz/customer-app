@@ -25,12 +25,5 @@ use Illuminate\Support\Facades\Route;
 Route::namespace('Api\v1')->prefix('v1')->group(function () {
     Route::group(['namespace' => 'Customers'], function () {
         Route::resource('customers', CustomersController::class);
-        Route::get('404', function(){
-          $connection = mysqli_connect('mysql', 'root', 'test', 'test_app');
-          $query =   mysqli_query($connection, "SELECT * FROM customers");
-          var_dump($connection);
-          dd($query);
-        })->name('customers.external');
-//         Route::get('external-customers', 'CustomersController@externalCustomer')->name('customers.external');
     });
 });
